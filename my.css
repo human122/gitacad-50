@@ -6,21 +6,20 @@ body {
 }
 
 .main-menu {
-  width: 150px;
+  width: 180px;
   margin: 0;
-  padding: 10px 15px;
+  padding: 0;
   list-style: none;
   background: #f5f5f5;
   border: 1px solid #e5e5e5;
 }
-
-/* Обратите внимание на селектор. */
-/* Все селекторы для меню предваряются классом меню. */
 
 .main-menu li {
   margin-bottom: 8px;
 }
 
 .main-menu a {
+  display: block;
+  padding: 8px 14px;
   color: #0088cc;
 }
