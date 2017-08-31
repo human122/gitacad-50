@@ -2,12 +2,12 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>Включаем механизм выпадания</title>
+  <title>Состояние «открытое подменю»</title>
 </head>
 <body>
   <ul class="main-menu">
     <li><a href="#company">О компании</a></li>
-    <li>
+    <li class="opened">
       <a href="#services">Услуги</a>
       <ul class="sub-menu">
         <li><a href="#1">Разработка</a></li>
@@ -15,8 +15,13 @@
         <li><a href="#3">Контекст</a></li>
       </ul>
     </li>
-    <li><a href="#team">Сотрудники</a></li>
+    <li><a href="#team">Сотрудники</a>
+      <ul class="sub-menu">
+        <li><a href="#1">Руководство</a></li>
+        <li><a href="#2">Рабочие</a></li>
+      </ul>
+    </li>
   </ul>
   <link rel="stylesheet" href="my.css">
-</body>
+</body> 
 </html>

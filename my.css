@@ -6,7 +6,7 @@ body {
   line-height: 1.4;
 }
 
-/* Сначала задаем режимы позиционирования, затем стили  */
+/* Сначала задаем режимы позиционирования, затем стили  */ 
 /* для подменю, затем механизм выпадания. */
 
 .main-menu {
@@ -52,5 +52,14 @@ body {
 
 .main-menu > li:hover .sub-menu {
   display: block;
+}
+
+.main-menu .opened .sub-menu {
+  display: block;
+}
+
+.main-menu > .opened > a {
+  color: #ffffff;
+  background: #0088cc;
 }
 
