@@ -19,6 +19,7 @@ body {
 .main-menu li {
   display: inline;
   margin-right: 5px;
+  white-space: nowrap;
 }
 
 .main-menu a {
