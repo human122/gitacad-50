@@ -2,15 +2,21 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>Испытание: вертикальное меню</title>
+  <title>Многоуровневое вертикальное меню</title>
 </head>
 <body>
   <ul class="main-menu">
-    <li><a href="#courses">Курсы</a></li>
-    <li class="active"><a href="#demo">Демонстрации</a></li>
-    <li><a href="#users">Участники</a></li>
-    <li><a href="#achivements">Достижения</a></li>
-    <li><a href="#profile">Профиль</a></li>
+    <li><a href="#company">О компании</a></li>
+    <li class="active">
+      <a href="#services">Услуги</a>
+      <ul>
+        <li><a href="#development">Разработка</a></li>
+        <li><a href="#seo">Продвижение</a></li>
+        <li><a href="#context">Контекст</a></li>
+      </ul>
+    </li>
+    <li><a href="#team">Сотрудники</a></li>
+    <li><a href="#contacts">Контакты</a></li>
   </ul>
   <link rel="stylesheet" href="my.css">
 </body>
