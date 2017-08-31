@@ -12,7 +12,7 @@ body {
   list-style: none;
 }
 
-.main-menu > li {
+/*.main-menu > li {
   margin-bottom: -1px;
   border: 1px solid #e5e5e5;
 }
@@ -22,6 +22,8 @@ body {
   padding: 8px 14px;
   text-decoration: none;
   color: #0088cc;  
+  margin-bottom: -1px;
+  border: 1px solid #e5e5e5;
 }
 
 .main-menu a:hover {
@@ -44,8 +46,8 @@ body {
 }
 
 .main-menu li li a {
-  color: black;
   padding: 3px 0;
+  color: black;  
 }
 
 .main-menu li li a:hover {
