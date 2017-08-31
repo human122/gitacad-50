@@ -1,4 +1,5 @@
 body {
+  min-width: 300px;
   padding: 10px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
@@ -15,9 +16,9 @@ body {
   border: 1px solid #e5e5e5;
 }
 
-.main-menu > li { 
+.main-menu > li {
+  position: relative; 
   display: inline-block;
-  position: relative;
   margin-right: -4px;
 }
 
@@ -35,8 +36,15 @@ body {
 
 .main-menu .sub-menu {
   position: absolute;
+  left: 1px;
+  width: 150px;
   margin: 0;
   padding: 0;
   list-style: none;
   background: #fcf8e3;
+}
+
+.main-menu .sub-menu a {
+  margin-bottom: -1px;
+  border: 1px solid #e5e5e5;
 }
