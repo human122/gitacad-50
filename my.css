@@ -12,21 +12,24 @@ body {
   list-style: none;
 }
 
-.main-menu a {
-  display: block;
+.main-menu > li {
   margin-bottom: -1px;
+  border: 1px solid #e5e5e5;
+}
+
+.main-menu a {
+  display: block;  
   padding: 8px 14px;
   text-decoration: none;
-  color: #0088cc;
-  border: 1px solid #e5e5e5;
+  color: #0088cc;  
 }
 
 .main-menu a:hover {
   background: #f5f5f5;
 }
 
-/* Ссылка в меню внутри элемента с классом .active
-   Дочерние, кроме потомков */
+/* Ссылка в меню внутри элемента с классом .active,
+   только дочерние, кроме остальных потомков */
 
 .main-menu > .active > a {
   color: white;
@@ -35,6 +38,6 @@ body {
 
 .main-menu ul {
   margin: 0;
-  padding: 0;
+  padding: 5px 0 5px 30px;
   list-style: none;
 }
