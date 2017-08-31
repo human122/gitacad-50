@@ -25,9 +25,16 @@ body {
   background: #f5f5f5;
 }
 
-/* Ссылка в меню внутри элемента с классом .active */
+/* Ссылка в меню внутри элемента с классом .active
+   Дочерние, кроме потомков */
 
-.main-menu .active a {
+.main-menu > .active > a {
   color: white;
   background: #0088cc;
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
