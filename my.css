@@ -1,34 +1,50 @@
+html,
 body {
-  padding: 10;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 430px;
+  min-height: 280px;
+  padding: 10px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.4;
+  background: #ecf0f1;
 }
 
 .main-menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border: 1px solid #e5e5e5;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: #2980b9;
 }
 
-/* Обратите внимание на селектор. */
-/* Все селекторы для меню предваряются классом меню. */
-
 .main-menu li {
-  display: inline-block;
-  margin-right: -4px;
+	display: inline-block;
+	margin-right: -5px;
+	border-left: 2px solid #2c3e50;
 }
 
 .main-menu a {
-  display: block;
-  margin-left: -1px;
-  padding: 8px 10px;
-  color: #0088cc;
-  border-left: 1px solid #e5e5e5;
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #ffffff;
 }
 
-.main-menu a:hover {
-  background: #eeeeee;
+.main-menu .active a {
+	background: #1abc9c;
 }
 
+
+/* 
+Используются цвета:
+
+#ffffff - белый
+#2980b9 - синий
+#2c3e50 - черный
+#1abc9c - морской волны
+
+*/
