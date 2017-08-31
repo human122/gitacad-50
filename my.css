@@ -30,6 +30,7 @@ body {
 }
 
 .main-menu .sub-menu {
+  display: none;
   position: absolute;
   top: 5px;
   left: 170px;
@@ -39,4 +40,11 @@ body {
   padding: 0;
   list-style: none;
   background: #fcf8e3;
+}
+
+/* Селектор для подменю, если навести мышь */
+/* на родительский элемент верхнего меню */
+
+.main-menu > li:hover .sub-menu {
+  display: block;
 }
