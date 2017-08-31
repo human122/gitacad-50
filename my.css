@@ -17,11 +17,18 @@ body {
 
 .main-menu li {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: -4px;
 }
 
 .main-menu a {
   display: block;
+  margin-left: -1px;
   padding: 8px 10px;
   color: #0088cc;
+  border-left: 1px solid #e5e5e5;
 }
+
+.main-menu a:hover {
+  background: #eeeeee;
+}
+
