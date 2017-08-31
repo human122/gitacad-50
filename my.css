@@ -1,50 +1,42 @@
 body {
-  padding: 10;
+  padding: 10px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.4;
 }
 
+/* Сначала задаем режимы позиционирования, затем стили  */
+/* для подменю, затем механизм выпадания. */
+
 .main-menu {
-  width: 180px;
   margin: 0;      
   padding: 0;     
   list-style: none;
+  border: 1px solid #e5e5e5;
+}
+
+.main-menu > li { 
+  display: inline-block;
+  position: relative;
+  margin-right: -4px;
 }
 
 .main-menu a {
   display: block; 
-  margin-bottom: -1px; 
-  padding: 8px 14px;
-  text-decoration: none;
+  margin-left: -1px; 
+  padding: 8px 10px;
   color: #0088cc;  
-  border: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
 }
 
 .main-menu a:hover {
   background: #f5f5f5;
 }
 
-.main-menu > li { 
-  position: relative;
-}
-
 .main-menu .sub-menu {
-  display: none;
   position: absolute;
-  top: 5px;
-  left: 170px;
-  z-index: 10;
-  width: 150px;
   margin: 0;
   padding: 0;
   list-style: none;
   background: #fcf8e3;
-}
-
-/* Селектор для подменю, если навести мышь */
-/* на родительский элемент верхнего меню */
-
-.main-menu > li:hover .sub-menu {
-  display: block;
 }
