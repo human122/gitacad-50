@@ -29,7 +29,7 @@ git tag
 git tag <имя тэга>  
 git tag -d <имя тэга>  
 git checkout <тэг или hash коммита>  
-git checkout -b <тэг или hash коммита>  
+git checkout -b <имя ветки>  
 git diff <тэг1 или hash1> <тэг2 или hash2>  
 git show  
 gitk  
