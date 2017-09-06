@@ -81,3 +81,8 @@ http://ilfire.ru/kompyutery/shpargalka-po-sintaksisu-markdown-markdaun-so-vsemi-
 скриншоты:  
 без git (просто папки) https://prnt.sc/ghbhzl  
 с git https://prnt.sc/ghbhev
+
+## Связанные репозитории
+
+https://github.com/human122/gitacad-86  
+https://github.com/human122/gitacad-130
