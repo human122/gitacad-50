@@ -33,6 +33,7 @@ git diff <тэг1 или hash1> <тэг2 или hash2>
 git show  
 gitk  
 git log  
+git log --max-count=4  
 git remote -v  
 git push `https://github.com/<ваше имя на гитхабе>/<имя вашего репозитория>`  
 git push -u --tags origin master  
