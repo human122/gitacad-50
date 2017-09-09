@@ -34,14 +34,19 @@ git diff <тэг1 или hash1> <тэг2 или hash2>
 git show  
 gitk  
 git log  
-git log --max-count=4  
+git log --max-count=4
+git reflog
 git remote -v  
 git push `https://github.com/<ваше имя на гитхабе>/<имя вашего репозитория>`  
 git push -u --tags origin master  
 git push -u --tags origin <ветка>  
 git push origin -d <тэг> (удалял тэг, который переименовал в локалке)  
 git pull  
-git fetch
+git pull --tags  
+git checkout --track origin/<имя ветки в репозитории на github>  
+git fetch  
+git fetch --all
+
 
 Еще использовал алиасы как на сайте githowto. Очень удобно.
 
