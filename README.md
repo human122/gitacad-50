@@ -34,8 +34,8 @@ git diff <тэг1 или hash1> <тэг2 или hash2>
 git show  
 gitk  
 git log  
-git log --max-count=4
-git reflog
+git log --max-count=4  
+git reflog  
 git remote -v  
 git push `https://github.com/<ваше имя на гитхабе>/<имя вашего репозитория>`  
 git push -u --tags origin master  
@@ -94,3 +94,4 @@ http://ilfire.ru/kompyutery/shpargalka-po-sintaksisu-markdown-markdaun-so-vsemi-
 
 https://github.com/human122/gitacad-86  
 https://github.com/human122/gitacad-130
+https://github.com/human122/gitacad-187
