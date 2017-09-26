@@ -93,5 +93,5 @@ http://ilfire.ru/kompyutery/shpargalka-po-sintaksisu-markdown-markdaun-so-vsemi-
 ## Связанные репозитории
 
 https://github.com/human122/gitacad-86  
-https://github.com/human122/gitacad-130
+https://github.com/human122/gitacad-130  
 https://github.com/human122/gitacad-187
