@@ -22,6 +22,7 @@ git add <имя файла>
 git add . (точка означает "добавить все файлы в репозитории")  
 git commit -m "<текст комментария для коммита>"  
 git commit -am "<текст комментария для коммита>" (если файлы новые создавали, то не добавятся)  
+git commit --amend -m "<новый текст для старого коммита>"  
 git branch  
 git branch <имя ветки>  
 git branch -b <имя ветки>  
@@ -37,10 +38,12 @@ git log
 git log --max-count=4  
 git reflog  
 git remote -v  
+git reset --hard <tag или hash>  
 git push `https://github.com/<ваше имя на гитхабе>/<имя вашего репозитория>`  
 git push -u --tags origin master  
 git push -u --tags origin <ветка>  
 git push origin -d <тэг> (удалял тэг, который переименовал в локалке)  
+git push -f --tags origin master  
 git pull  
 git pull --tags  
 git checkout --track origin/<имя ветки в репозитории на github>  
