@@ -49,6 +49,7 @@ git pull --tags
 git checkout --track origin/<имя ветки в репозитории на github>  
 git fetch  
 git fetch --all
+git remote set-url origin <git@ или https: адрес репозитория>
 
 
 Еще использовал алиасы как на сайте githowto. Очень удобно.
